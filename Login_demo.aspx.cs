@@ -28,15 +28,19 @@ public partial class Login_demo : System.Web.UI.Page
 
         if (dt.Rows.Count > 0)
         {
-            Response.Redirect("Redirect_page.aspx");
+            Response.Redirect("CustomerDash_Page.aspx");
         }
         else
         {
-            Label1.Text = "Your username and password is incorrect";
+            Label1.Text = "Your username and password are incorrect";
             Label1.ForeColor = System.Drawing.Color.Red;
 
         }
 
 
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("CreateAcct.aspx");
     }
 }

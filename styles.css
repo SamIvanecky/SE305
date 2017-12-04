@@ -1,2 +1,69 @@
-﻿body {
+﻿.loginButton {
+    background-color: cornflowerblue;
+    font-size: 20px;
+    border-radius: 16px;
+    width: 250px;
+}
+
+.createAcct {
+    background-color: darkgreen;
+    font-size: 20px;
+    border-radius: 16px;
+    width: 250px;
+}
+
+.loginTextbox {
+    width: 250px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headText{
+    font-size: 60px;
+    font-style:oblique;
+    font-family:Calibri;
+    text-align: center;
+}
+
+.successMsg {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+    font-style:oblique;
+}
+
+.center {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent {
+    text-align: center;
+}
+
+.block {
+    text-align: center;
+    margin: auto;
+    font-family: Calibri;
+}
+
+.blueDashButton {
+    text-align: center;
+    background-color: dodgerblue;
+    font-size: 30px;
+    border-radius: 16px;
+    width: auto;
+    padding:8px;
+}
+
+.greenDashButton {
+    text-align: center;
+    background-color: forestgreen;
+    font-size: 30px;
+    border-radius: 16px;
+    width: auto;
+    padding: 8px
 }
